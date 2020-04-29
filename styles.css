@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Lexend+Peta&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Amiri&display=swap');
+
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family:'Open Sans', sans-serif;
+    background-image: linear-gradient(grey, white);
+   color:white;
+}
+
+.logo {
+   max-width: 179px;
+   
+}
+
+.header {
+    margin: auto;
+    display: grid;
+    grid-template-columns: 50% 50% ;
+    background-color:#262E40;
+    text-align:center;
+    border: solid black 3px;
+    height: 185px;
+       
+    
+}
+
+#nav {
+   color: White;
+   grid-column: 2/4;
+   padding: 20px;
+   border: solid;
+   margin: auto;
+   padding-bottom:
+    
+}
+
+.links {
+   color: White;
+   text-align: center;
+   font-size: 18px;
+   font-family: 'Lexend Peta', sans-serif;
+   padding:50px;
+    
+    
+}
+
+#landing {
+    height:800px;
+    background-image:url(img/Piano.jpg);
+    background-size:cover;
+    background-attachment: fixed;
+    background-position: center;
+    border: solid black;
+    text-align: center;
+    background-repeat: no-repeat;
+    
+    
+}
+
+#welcome {
+    padding:15%;
+    font-size:80px;
+    font-family: 'Amiri', serif;
+    font-weight: 100;
+    text-decoration-style:double;
+    text-decoration-color: black;
+}
+
+#page1 { 
+   max-width: 100%;
+   margin: auto;
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   height:300px;
+   text-align:center;
+   padding-top:30px;
+   border: solid black;
+   height:450px;
+   background-color:#262E40;
+    
+}
+
+img {
+    max-width: 80%;
+    max-width: 250px;
+}
+
+#topbar {
+    grid-column: 1/3;
+    text-align: center
+}
+
+#lengthw {
+    grid-template:1/2;
+}
+
+#length {
+    grid-column: 1/3; 
+}
+
+
+#page2 {
+    max-width: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    border: solid black;
+    text-align:center;
+    padding: 20px;
+    background-color:#262E40 ;
+    
+}
+
+#length2 {
+    grid-column: 1/5;
+    padding-top:30px;
+}
+
+#page3 {
+    max-width: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 50% 25% 25%; 
+    padding:20px;
+    background-color: #262E40;
+    border:solid black;
+    
+}
+
+#writing {
+    text-align: center
+}
+
+img {
+    border: solid;
+    color :antiquewhite;
+    
+}
+
+.tophalf {
+    height:50%;
+    text-align: center;
+    
+}
+
+.bottomhalf {
+    height: 50%;
+    text-align: center;
+    
+}
+
+a {
+    text-align: end;
+    text-decoration: none
+    
+}
+
+a2 {
+    color:aqua;
+    font-family: 'Lexend Peta', sans-serif;
+    display: block;
+    
+}
+
+h1 {
+    font-family: 'Lexend Peta', sans-serif;
+    text-decoration: underline;
+ 
+}
+
+h2 {
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Lexend Peta', sans-serif; 
+}
+
+figcaption {
+    text-align: center;
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Lexend Peta', sans-serif; 
+    padding-bottom:10px
+  
+}
+
+p {
+    border-bottom:solid 4px antiquewhite;
+    border-radius: 10px;
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 10px
+}
+
+.page3Para {
+    text-align: left;
+}
+
+iframe {
+    border: solid 3px;
+    color:antiquewhite;
+}
+
+ 
